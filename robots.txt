@@ -1,0 +1,25 @@
+# FileTools Robots.txt
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /images/
+Allow: /styles.css
+
+# Block access to sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*?*
+
+# Allow search engines to crawl these files
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Crawl-delay for bots (optional)
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://dasharathakarthik.github.io/freefiletools/sitemap.xml 

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>FileTools - Free Online Image Compression & Format Converter</title>
+    <meta name="description" content="Free online tools to compress images and convert between formats. No registration required. Process files locally - 100% secure and private.">
+    <meta name="keywords" content="image compression, jpg to png, png to jpg, image converter, image optimization">
+    <meta name="google-site-verification" content="6UrvFba4yAVdPKg4Eqz707Gv69LLYZqKKRngJTXSIUQ" />
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FileTools - Free Online Image Tools">
+    <meta property="og:description" content="Compress images and convert formats easily without uploading to any server. 100% secure, fast, and free.">
+    <meta property="og:url" content="https://dasharathakarthik.github.io/freefiletools">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "FileTools",
+        "description": "Free online tools for image compression and format conversion",
+        "applicationCategory": "Utility",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "featureList": [
+            "Image Compression",
+            "JPG to PNG Conversion",
+            "PNG to JPG Conversion"
+        ],
+        "url": "https://dasharathakarthik.github.io/freefiletools",
+        "screenshot": "https://dasharathakarthik.github.io/freefiletools/images/screenshot.jpg",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1250"
+        }
+    }
+    </script>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dasharathakarthik.github.io/freefiletools">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="FileTools">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#0ea5e9">
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FileTools - Free Online Image Tools">
+    <meta name="twitter:description" content="Compress images and convert formats easily without uploading to any server. 100% secure, fast, and free.">
+    <meta name="twitter:image" content="https://dasharathakarthik.github.io/freefiletools/images/social-preview.jpg">
+
+    <!-- Additional Open Graph Tags -->
+    <meta property="og:site_name" content="FileTools">
+    <meta property="og:image" content="https://dasharathakarthik.github.io/freefiletools/images/social-preview.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+
+    <!-- Breadcrumb Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://dasharathakarthik.github.io/freefiletools"
+        }]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FileTools</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#compress">Image Tools</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Add after header -->
+    <div class="ad-container horizontal">
+        <div class="ad-placeholder">
+            <!-- AdSense Horizontal Ad -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="your-ad-client"
+                 data-ad-slot="horizontal-ad-slot"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+        </div>
+    </div>
+
+    <main role="main">
+        <article class="hero" id="home">
+            <h1>Free Online File Tools</h1>
+            <p>Compress images and convert files easily without uploading to any server. 100% secure, fast, and free forever.</p>
+            <div class="cta-buttons">
+                <button onclick="scrollToSection('compress')" class="btn primary">Image Tools</button>
+            </div>
+        </article>
+
+        <article id="compress" class="tools-container">
+            <h2 class="section-title">Image Tools</h2>
+            
+            <!-- Add before each tool section -->
+            <div class="ad-container vertical">
+                <div class="ad-placeholder">
+                    <!-- AdSense Vertical Ad -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="your-ad-client"
+                         data-ad-slot="vertical-ad-slot"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                </div>
+            </div>
+
+            <!-- Image Compression -->
+            <div class="tool-card">
+                <h3>Image Compression</h3>
+                <p>Reduce image file size while maintaining quality</p>
+                <div class="tool-content">
+                    <div class="compression-options">
+                        <label for="quality">Quality Level:</label>
+                        <select id="quality">
+                            <option value="high">High Quality</option>
+                            <option value="medium" selected>Medium Quality</option>
+                            <option value="low">Low Quality</option>
+                        </select>
+                    </div>
+                    <div class="dropzone" id="imageDropzone" role="button" tabindex="0">
+                        <input type="file" id="imageInput" accept="image/*" multiple>
+                        <div class="dropzone-content">
+                            <span class="upload-text">
+                                <span class="primary-text">Drag & drop files here</span>
+                                <span class="secondary-text">or</span>
+                                <span class="action-text">Click to select files</span>
+                            </span>
+                            <span class="mobile-text">Tap to select files</span>
+                        </div>
+                    </div>
+                    <div id="compressionResults"></div>
+                </div>
+            </div>
+
+            <!-- JPG to PNG -->
+            <div class="tool-card">
+                <h3>JPG to PNG Converter</h3>
+                <p>Convert JPG images to PNG format</p>
+                <div class="tool-content">
+                    <div class="dropzone" id="jpgToPngDropzone" role="button" tabindex="0">
+                        <input type="file" id="jpgToPngInput" accept=".jpg,.jpeg" multiple>
+                        <div class="dropzone-content">
+                            <span class="upload-text">
+                                <span class="primary-text">Drag & drop JPG files here</span>
+                                <span class="secondary-text">or</span>
+                                <span class="action-text">Click to select files</span>
+                            </span>
+                            <span class="mobile-text">Tap to select files</span>
+                        </div>
+                    </div>
+                    <div id="jpgToPngResults"></div>
+                </div>
+            </div>
+
+            <!-- PNG to JPG -->
+            <div class="tool-card">
+                <h3>PNG to JPG Converter</h3>
+                <p>Convert PNG images to JPG format</p>
+                <div class="tool-content">
+                    <div class="dropzone" id="pngToJpgDropzone" role="button" tabindex="0">
+                        <input type="file" id="pngToJpgInput" accept=".png" multiple>
+                        <div class="dropzone-content">
+                            <span class="upload-text">
+                                <span class="primary-text">Drag & drop PNG files here</span>
+                                <span class="secondary-text">or</span>
+                                <span class="action-text">Click to select files</span>
+                            </span>
+                            <span class="mobile-text">Tap to select files</span>
+                        </div>
+                    </div>
+                    <div id="pngToJpgResults"></div>
+                </div>
+            </div>
+        </article>
+
+        <section id="blog" class="blog-section">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <h3>How to Optimize Images for Web Performance</h3>
+                    <p>Learn the best practices for optimizing images to improve your website's loading speed and user experience. Discover compression techniques, format selection, and more.</p>
+                    <a href="./blog/optimize-images.html" class="read-more">Read More →</a>
+                </article>
+                
+                <article class="blog-post">
+                    <h3>Understanding Image Formats: PNG vs JPG</h3>
+                    <p>A comprehensive guide to choosing between PNG and JPG formats. Learn when to use each format for the best results in your projects.</p>
+                    <a href="./blog/image-formats.html" class="read-more">Read More →</a>
+                </article>
+                
+                <article class="blog-post">
+                    <h3>Best Practices for Image Compression</h3>
+                    <p>Master the art of image compression with expert tips. Learn how to reduce file sizes while maintaining image quality for optimal web performance.</p>
+                    <a href="./blog/compression-tips.html" class="read-more">Read More →</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 FileTools. All rights reserved.</p>
+    </footer>
+
+    <!-- Add before footer -->
+    <div class="ad-container horizontal">
+        <div class="ad-placeholder">
+            <!-- AdSense Horizontal Ad -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="your-ad-client"
+                 data-ad-slot="horizontal-ad-slot"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.2.1/compressor.min.js"></script>
+    <script src="app.js"></script>
+
+    <!-- Add AdSense script before closing body tag -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</body>
+</html> 
