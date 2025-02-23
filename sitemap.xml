@@ -1,72 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
     <url>
         <loc>https://dasharathakarthik.github.io/freefiletools/</loc>
-        <lastmod>2024-02-22</lastmod>
+        <lastmod>2024-02-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
-    <!-- Tool Pages -->
+    <!-- Tool Section -->
     <url>
-        <loc>https://dasharathakarthik.github.io/freefiletools/#compress</loc>
-        <lastmod>2024-02-22</lastmod>
+        <loc>https://dasharathakarthik.github.io/freefiletools/index.html</loc>
+        <lastmod>2024-02-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://dasharathakarthik.github.io/freefiletools/images/compression-tool.jpg</image:loc>
-            <image:title>Image Compression Tool</image:title>
-        </image:image>
     </url>
 
     <!-- Blog Posts -->
     <url>
         <loc>https://dasharathakarthik.github.io/freefiletools/blog/compression-tips.html</loc>
-        <lastmod>2024-02-22</lastmod>
+        <lastmod>2024-02-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <image:image>
-            <image:loc>https://dasharathakarthik.github.io/freefiletools/images/blog/compression-tips.jpg</image:loc>
-            <image:title>Image Compression Tips</image:title>
-        </image:image>
     </url>
 
     <url>
         <loc>https://dasharathakarthik.github.io/freefiletools/blog/optimize-images.html</loc>
-        <lastmod>2024-02-22</lastmod>
+        <lastmod>2024-02-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <image:image>
-            <image:loc>https://dasharathakarthik.github.io/freefiletools/images/blog/optimize-images.jpg</image:loc>
-            <image:title>Image Optimization Guide</image:title>
-        </image:image>
     </url>
 
     <url>
         <loc>https://dasharathakarthik.github.io/freefiletools/blog/image-formats.html</loc>
-        <lastmod>2024-02-22</lastmod>
+        <lastmod>2024-02-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <image:image>
-            <image:loc>https://dasharathakarthik.github.io/freefiletools/images/blog/image-formats.jpg</image:loc>
-            <image:title>Image Formats Guide</image:title>
-        </image:image>
     </url>
-
-    <!-- Static Pages -->
-    <url>
-        <loc>https://dasharathakarthik.github.io/freefiletools/privacy-policy.html</loc>
-        <lastmod>2024-02-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://dasharathakarthik.github.io/freefiletools/terms-of-service.html</loc>
-        <lastmod>2024-02-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-</urlset> 
+</urlset>
