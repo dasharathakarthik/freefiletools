@@ -18,8 +18,5 @@ Disallow: /*?*
 Allow: /sitemap.xml
 Allow: /robots.txt
 
-# Crawl-delay for bots (optional)
-Crawl-delay: 10
-
 # Sitemap location
 Sitemap: https://dasharathakarthik.github.io/freefiletools/sitemap.xml 
